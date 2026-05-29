@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------
+# Microdados brutos do Censo 2010
+# Arquivos muito grandes — não versionar
+# Devem ser baixados localmente via datazoom_social
+# ---------------------------------------------------------------
+data_raw/
+*.dta
+*.sav
+
+# ---------------------------------------------------------------
+# Base intermediária nacional (CENSO10_BR.dta)
+# Gerada pelo script mas muito pesada para o GitHub
+# ---------------------------------------------------------------
+data_processed/CENSO10_BR.*
+
+# ---------------------------------------------------------------
+# CSVs grandes — versionar apenas se o arquivo for pequeno
+# A base municipal final pode ser incluída se tiver menos de 100MB
+# ---------------------------------------------------------------
+*.csv
+
+# ---------------------------------------------------------------
+# Arquivos temporários do Stata
+# ---------------------------------------------------------------
+*.stswp
+*.ster
+*.log
+~*.dta
+
+# ---------------------------------------------------------------
+# Arquivos temporários do R
+# ---------------------------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+renv/library/
+renv/staging/
+renv/sandbox/
+
+# ---------------------------------------------------------------
+# Sistema operacional
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
