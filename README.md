@@ -1,5 +1,4 @@
-# Indicadores Municipais de Gênero e Mercado de Trabalho
-## Censo Demográfico 2010
+## Gerando indicadores agregados através dos microdados do Censo Demográfico 2010
 
 Repositório de documentação e reprodutibilidade com base no meu segundo ensaio da
 tese de doutorado. Contém os scripts de construção de indicadores
