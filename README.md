@@ -59,15 +59,12 @@ segundo-ensaio/
 │                                           # via datazoom_social
 │
 ├── data_processed/
-│   └── censo2010_municipios.csv            # Base municipal final — disponível
+│   └── censo2010_municipios.csv            # Base municipal final — disponível em .csv
+│   └── censo2010_municipios.dta            # Base municipal final — disponível em .dta
 │                                           # para uso direto sem reprocessar
 │
 ├── docs/
 │   └── variable_dictionary.md             # Dicionário completo das variáveis
-│
-├── outputs/
-│   ├── figures/                            # Figuras e gráficos (a serem gerados)
-│   └── tables/                             # Tabelas de resultados (a serem geradas)
 │
 ├── .gitignore                              # Arquivos excluídos do versionamento
 └── README.md                               # Este arquivo
